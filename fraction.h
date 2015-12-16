@@ -26,13 +26,13 @@
         +-------+-----------+---------------+-----------------------+---------------
         |   -   |   new     |   post        |   NONE                |   求相反数
         |   ~   |   new     |   post        |   NONE                |   求倒数
-        |   +=  |   this    |   pre / post  |   fraction / int64    |   加法
+        |   +=  |   this    |   post        |   fraction / int64    |   加法
         |   +   |   new     |   pre / post  |   fraction / int64    |   加法
-        |   -=  |   this    |   pre / post  |   fraction / int64    |   减法
+        |   -=  |   this    |   post        |   fraction / int64    |   减法
         |   -   |   new     |   pre / post  |   fraction / int64    |   减法
-        |   *=  |   this    |   pre / post  |   fraction / int64    |   乘法
+        |   *=  |   this    |   post        |   fraction / int64    |   乘法
         |   *   |   new     |   pre / post  |   fraction / int64    |   乘法
-        |   /=  |   this    |   pre / post  |   fraction / int64    |   除法
+        |   /=  |   this    |   post        |   fraction / int64    |   除法
         |   /   |   new     |   pre / post  |   fraction / int64    |   除法
         |   <   |   bool    |   pre / post  |   fraction / int64    |   比较，小于
         |   <=  |   bool    |   pre / post  |   fraction / int64    |   比较，小于等于
