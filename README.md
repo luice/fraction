@@ -12,7 +12,7 @@
         复制、修改、使用、转发时，必须在文件开头注释中原样包含本注释中两个 -> 标志之间的内容！
         侵权必究！
     【原稿】
-        https://github.com/luice/faction
+        https://github.com/luice/fraction
         
 ->
 
